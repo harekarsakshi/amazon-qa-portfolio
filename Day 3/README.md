@@ -1,4 +1,5 @@
-# Day 3 — Amazon Search Bar Test Plan (STLC Framework)
+# Day 3 
+# Amazon Search Bar Test Plan (STLC Framework)
 
 This repository documents a structured approach to analyzing and planning tests for the **Amazon Search Bar**, following the **Software Testing Life Cycle (STLC)** methodology.
 
