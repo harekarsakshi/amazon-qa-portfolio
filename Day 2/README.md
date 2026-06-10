@@ -1,4 +1,5 @@
-# Day 2: SDLC Mapping — Waterfall vs Agile
+# Day 2
+# SDLC Mapping — Waterfall vs Agile
 
 ## What I did
 
