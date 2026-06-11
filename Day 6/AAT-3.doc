@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#AAT-3] Contradictory Delivery Estimate Communication Between Product Grid and Cart Preview</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://harekarsakshi.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [AAT-3]&nbsp;<a href="https://harekarsakshi.atlassian.net/browse/AAT-3">Contradictory Delivery Estimate Communication Between Product Grid and Cart Preview</a>
+            <span class="subText">
+               Created: 11/Jun/26                   &nbsp;Updated: 11/Jun/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://harekarsakshi.atlassian.net/secure/BrowseProject.jspa?id=10067">Amazon Application Testing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="61dbb5b90586a20069992fb6"
+                id="word_reporter_61dbb5b90586a20069992fb6"
+                href="https://harekarsakshi.atlassian.net/secure/ViewProfile.jspa?accountId=61dbb5b90586a20069992fb6">
+                    Sakshi Harekar
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10156-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://harekarsakshi.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260611-181757.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10156-value" class="value" bgcolor="#ffffff" width="80%">      0|i0005b:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description%3A"></a><b>Description:</b></h3>
+
+<p>The platform presents conflicting delivery time messages to the user for the exact same item depending on whether they look at the main product search grid or the cart subtotal preview panel.</p>
+
+<h3><a name="StepstoReproduce%3A"></a><b>Steps to Reproduce:</b></h3>
+
+<ol>
+	<li>Search for "toys" to load the main results grid.</li>
+	<li>Expand the right-hand persistent shopping cart sidebar.</li>
+	<li>Locate an item that is actively inside the cart sidebar and visible in the organic search results below (e.g., <em>10 Pack Taba Squishy Toys</em>).</li>
+	<li>Compare the shipping metadata printed on the product card with the banner messaging in the cart sidebar.</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%3A"></a><b>Expected Result:</b></h3>
+
+<p>The cart preview sidebar should pull real-time logistics data for added items and match the fast-shipping promises displayed on the product grid (e.g., displaying an item-level tag or text stating <em>"Eligible for Today Delivery"</em>), ensuring consistent UX messaging across the page.</p>
+
+<h3><a name="ActualResult%3A"></a><b>Actual Result:</b></h3>
+
+<p>The product card in the main search results explicitly advertises urgent delivery: <b>"Join Prime to get FREE delivery Today 5 PM - 10 PM"</b>. However, the cart sidebar at the top right displays a generic message: <b>"Part of your order qualifies for FREE Shipping. Choose this option at checkout."</b> completely failing to validate or capture the immediate "Today" timeline.</p>
+
+<p><b>Environment:</b> Production (Desktop - Chrome Browser)</p>
+
+<p><b>Severity:</b> Low</p>
+
+<p><b>Priority:</b> Low</p>
+
+<p><span class="image-wrap" style=""><img src="https://harekarsakshi.atlassian.net/rest/api/3/attachment/content/10035" alt="image-20260611-181757.png" width="594" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Thu Jun 11 18:32:35 UTC 2026 by Sakshi Harekar using Jira 1001.0.0-SNAPSHOT#100291-rev:fc7a4733e5b961216b9bf0a12338994ae0045171.
+
+</body>
+</html>
