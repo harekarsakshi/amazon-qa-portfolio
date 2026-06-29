@@ -53,6 +53,27 @@ Portfolio Scenario Examples: TC-05 (End-to-end checkout path using a valid credi
 ## 📋 Comprehensive Test Strategy Matrix
 The following 18 core scenarios constitute the regression suite. They are strategically evaluated by execution feasibility, targeted architectural layer, and structural QA rationale:
 
+| Test Case ID | Test Description | Automate? (Yes/No) | Unit Level | Justification |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC-01** | Verify successful login with valid credentials | Yes | E2E | This is our main happy path login flow. Since we test this on every deployment, automating it saves tons of manual regression time. |
+| **TC-02** | Verify search bar returns relevant product results for valid keywords | Yes | API | Validates the core search functionality by ensuring the search service returns the correct product data payload. |
+| **TC-03** | Verify serviceability check accepts a valid delivery pincode and provides delivery estimates. | Yes | API | Checks if our pincode backend API returns correct delivery timelines. Better to automate so we don't have to manually type pincodes. |
+| **TC-04** | Verify the shopping cart badge count increments correctly when "Add to Cart" is clicked. | Yes | Unit | Simple front-end state check. We can catch visual or count bugs quickly at the component unit level. |
+| **TC-05** | Verify that a user can successfully complete a purchase using a valid credit card. | Yes | E2E | This is the most critical smoke test scenario. If checkout breaks, the app loses money, so it must be automated as a full end-to-end flow. |
+| **TC-06** | Verify that an unauthenticated (logged-out) user is prompted to sign in or transition gracefully when attempting to add an item to the cart. | Yes | E2E | Tests the full user redirection and session handling flow across screens to prevent unauthorized users from bypassing the login wall. |
+| **TC-07** | Verify that login is denied and an appropriate error message is displayed when using unregistered or incorrect credentials. | Yes | API | Classic negative test case. Essential to ensure the auth API properly blocks bad inputs and returns the correct error codes. |
+| **TC-08** | Verify that the search results page displays a user-friendly "No results found" message and handled gracefully when a non-existent keyword is entered. | Yes | Unit | Edge case test for empty states. Makes sure the UI component doesn't crash or freeze up when a user types gibberish. |
+| **TC-09** | This test validates the billing and checkout system's boundary logic when an order's final total drops to exactly \$0.00. | Yes | E2E | Tricky boundary value edge case for promo codes/discounts. Automating it ensures the checkout logic handles a free cart all the way to completion. |
+| **TC-10** | This test validates the system's boundary handling when a user manually inputs a massive quantity (99999) in the cart edit box. | Yes | API | Input validation testing. Automating this at the API layer stops the system from accepting broken numbers before it hits the database. |
+| **TC-11** | Verify that entering a valid zip code automatically triggers the system to map or validate the correct city and state. | Yes | API | Happy path testing for the address validation API. Automating this ensures our location-matching service isn't broken. |
+| **TC-12** | Verify that a user can successfully split the final checkout bill between an Amazon gift card and a saved credit card. | No | E2E | This involves a tricky combination of data inputs and complex backend logic. Best to test manually first before scripting. |
+| **TC-13** | Verify that selecting "Prime Two-Day Shipping" updates the shipping cost to \$0.00 and accurately recalculates the final order total. | Yes | API | Core feature for Prime user experience. It checks that the pricing calculator API updates math dynamically when shipping speeds change. |
+| **TC-14** | Verify that successfully placing an order generates a valid order confirmation number and decrements the warehouse inventory count. | Yes | E2E | Critical data-integrity check. We need to automate this to guarantee that a successful buy updates our backend inventory. |
+| **TC-15** | Verify that entering an invalid/expired credit card displays a clear, helpful error message and prevents the user from checking out. | Yes | API | Essential negative test case. Automating this protects the checkout wall and ensures error handling doesn't regress. |
+| **TC-16** | Verify the entire checkout journey smoothly handles a guest user from selecting a new address all the way to the "Thank You" confirmation page. | Yes | E2E | Classic smoke test path. Walking through the whole user flow via automation catches major blockers across different screens. |
+| **TC-17** | **[Section 8 - Entry Criteria]** Verify that the Stage-Checkout environment is fully stable, test accounts are loaded, and basic sanity passes before cycle start. | No | E2E | This is a human gatekeeper check. We have to manually verify our setup and test data readiness before greenlighting the testing cycle. |
+| **TC-18** | **[Section 7 - Risk Handling]** Verify that when the live payment gateway is simulated as "Down", the backup mock system kicks in seamlessly to return a success response. | No | API | This tests our mitigation strategy. Executing this verification during an active gateway failure requires manual/strategic setup. |
+
 ---
 
 ## 🚫 Intentionally Non-Automatable Scenarios
