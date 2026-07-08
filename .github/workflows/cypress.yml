@@ -1,0 +1,21 @@
+name: End-to-end Tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cypress run
+        # This is the official template from Step 2
+        uses: cypress-io/github-action@v6
+        with:
+          # If your project requires a build or start command before running tests, 
+          # you can uncomment and adjust the line below:
+          # start: npm start
